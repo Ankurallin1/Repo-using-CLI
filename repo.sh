@@ -9,7 +9,7 @@ final=`echo "$x" | tr " " -`
 curl -i -H "Authorization: token your-access-token" -d '{"name": "'$final'","private": false}' https://api.github.com/user/repos
 git init
 git checkout -b main
-echo "Enter commit mssg"
+echo "Enter commit message for README.md"
 read msg
 touch README.md
 git add README.md
