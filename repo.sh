@@ -6,7 +6,9 @@ mkdir ${reponame}
 cd "$(echo $reponame)"
 x=`echo "$reponame" | tr -s ' '`
 final=`echo "$x" | tr " " -`
-curl -i -H "Authorization: token your-access-token" -d '{"name": "'$final'","private": false}' https://api.github.com/user/repos
+echo "Enter (true) for public or (false) for private"
+read scope
+curl -i -H "Authorization: token your-access-token" -d '{"name": "'$final'","public": "'$scope'"}' https://api.github.com/user/repos
 git init
 git checkout -b main
 echo "Enter commit message for README.md"
