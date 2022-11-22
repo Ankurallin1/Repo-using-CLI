@@ -2,9 +2,11 @@
 
 - Edit script with **your credentials**
 
+- Put the script in **/usr/local/bin**
+
 - Give access with **chmod 777**
 
-- Run the script with **source repo.sh**
+- Run script anywhere with command  **source script_name.sh**
 
 
 <h2 align="left">Video Description</h2>
