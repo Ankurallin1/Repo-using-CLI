@@ -1,6 +1,14 @@
 <h1 align="left">Get started</h1>
 
-- Edit script with **your credentials**
+- Edit script with **your credentials At line:**
+
+- **Line 1:** Your name
+
+- **Line 2:** Your Email ID
+
+- **Line 11:** Your public Access Token
+
+- **Line 4:** Your Github Username
 
 - Put the script in **/usr/local/bin**
 
